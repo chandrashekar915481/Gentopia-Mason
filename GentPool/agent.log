@@ -1,0 +1,53 @@
+INFO:root:Creating Config from file: ./gentpool/pool/sch/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/sch/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/sch/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:sch is thinking...
+INFO:root:Done
+INFO:root:[blue]sch: 
+INFO:root:{"name":"gold_price_predictor", "arguments":{"file_path":"/Users/chandrashakargudipally/Desktop/cs678/Gentopia-Mason/GentPool/gold_data.csv"}}
+
+INFO:root:Calling function: gold_price_predictor ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:
+Gold Price Prediction Results:
+==============================
+Current Gold Price: $2657.60
+
+Forecast for next 3 days:
+-------------------------
+Date: 2024-10-12 00:00:00, Predicted Price: $2654.89
+Date: 2024-10-13 00:00:00, Predicted Price: $2654.89
+Date: 2024-10-14 00:00:00, Predicted Price: $2654.89
+
+Model Performance:
+------------------
+Mean Absolute Error: 2.38
+Root Mean Square Error: 2.69
+
+A plot of the forecast has been generated but cannot be displayed in this console output.
+
+INFO:root:--------------------
+INFO:root:sch is thinking...
+INFO:root:Done
+INFO:root:[blue]sch: 
+INFO:root:The gold price prediction results are as follows:
+
+- **Current Gold Price:** $2657.60
+
+**Forecast for the next 3 days:**
+- **Date:** 2024-10-12, **Predicted Price:** $2654.89
+- **Date:** 2024-10-13, **Predicted Price:** $2654.89
+- **Date:** 2024-10-14, **Predicted Price:** $2654.89
+
+**Model Performance:**
+- **Mean Absolute Error:** 2.38
+- **Root Mean Square Error:** 2.69
+
+A plot of the forecast has been generated, but it cannot be displayed in this console output. If you need further analysis or details, feel free to ask!
+INFO:root:Done
+INFO:root:[green]User: 

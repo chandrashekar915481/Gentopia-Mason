@@ -14,6 +14,7 @@ from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
 from .pdf_reader import ReadPDF
+from .gold_price_agent import GoldPricePredictor
 
 def load_tools(name: str) -> BaseTool:
     name2tool = {
@@ -44,6 +45,7 @@ def load_tools(name: str) -> BaseTool:
         "search_related_paper": SearchRelatedPaper,
         "search_cite_paper": SearchCitePaper,
         "read_pdf": ReadPDF,
+        "precious_metal_price_predictor": GoldPricePredictor,
        
     }
     if name not in name2tool:
